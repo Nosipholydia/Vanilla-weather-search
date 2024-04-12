@@ -1,9 +1,6 @@
 body {
   background-color: #f9f7fe;
-
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 .weather {
   background: white;
@@ -60,24 +57,26 @@ main {
   display: flex;
 }
 .value {
-  font-size: 85px;
+  font-size: 80px;
   font-weight: bold;
-  margin-left: 10px;
 }
 .icon {
-  font-size: 43px;
-  margin-top: 20px;
+  position: relative;
+
+  font-size: 40px;
+  margin-right: 10px;
 }
+
 .unit {
-  font-size: 30px;
-  margin-top: 15px;
+  font-size: 28px;
+  position: relative;
 }
 footer {
   border-top: 1px solid #f9f7fe;
-  padding: 30px 0 0 0;
+  padding-top: 15px;
   font-size: 11px;
   text-align: center;
-  color: rgba (0, 0, 0, 0.5);
+  color: rgba(39, 33, 66, 0.4);
 }
 a {
   color: #f65282;
