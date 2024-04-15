@@ -82,9 +82,11 @@ a {
   color: #f65282;
 }
 .weather-forecast {
+  display: inline-block;
   margin-top: 20px;
   text-align: center;
   color: #000;
+  padding-inline-end: 65px;
 }
 .weather-forecast-date {
   font-size: 16px;
